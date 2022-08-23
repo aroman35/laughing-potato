@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{18A43C51-D003-46CB-9BED-CFCF79849479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaughingPotato.Core", "LaughingPotato.Core\LaughingPotato.Core.csproj", "{70D8009A-9AD7-4FCB-B346-910DD38E3B32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5FB64FAE-2A6A-4F7D-8332-EB36C592BBDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaughingPotato.UnitTests", "LaughingPotato.UnitTests\LaughingPotato.UnitTests.csproj", "{B5A0B1E7-7901-4951-870F-4944A351F3ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70D8009A-9AD7-4FCB-B346-910DD38E3B32} = {18A43C51-D003-46CB-9BED-CFCF79849479}
+		{B5A0B1E7-7901-4951-870F-4944A351F3ED} = {5FB64FAE-2A6A-4F7D-8332-EB36C592BBDB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70D8009A-9AD7-4FCB-B346-910DD38E3B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D8009A-9AD7-4FCB-B346-910DD38E3B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D8009A-9AD7-4FCB-B346-910DD38E3B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D8009A-9AD7-4FCB-B346-910DD38E3B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A0B1E7-7901-4951-870F-4944A351F3ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A0B1E7-7901-4951-870F-4944A351F3ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A0B1E7-7901-4951-870F-4944A351F3ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A0B1E7-7901-4951-870F-4944A351F3ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
